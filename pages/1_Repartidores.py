@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 # Configurar la página
-st.set_page_config(page_title="Armadores", page_icon="🔥", layout="wide")
+st.set_page_config(page_title="Repartidores", page_icon="🔥", layout="wide")
 
 # Encabezado
 st.header("Control de desempeño en Armadores")
