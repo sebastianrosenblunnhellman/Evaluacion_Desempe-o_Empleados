@@ -2,6 +2,9 @@
 
 El objetivo final de este proyecto es desarrollar una aplicación analítica para evaluar el desempeño de los empleados en una pequeña empresa de envíos. 📦 Debido a razones de privacidad, el set de datos original y la identidad de la empresa han sido resguardados. Lo que queda aquí expuesto es la estructura del proyecto y la secuencia resolutiva que se trazó en el mismo.
 
+[![Ver Demo](https://img.shields.io/badge/Demo-Visitar%20Demo-brightgreen)](https://empleadoss.streamlit.app)
+
+
 # 🏢 Descripción de la Empresa
 La empresa está dividida en dos roles principales: **armadores** y **repartidores**.
 Los armadores 🔧 son responsables de preparar cada pedido, buscando los productos en el depósito, sellando la caja con la dirección de entrega y dejándola lista para los repartidores. Los repartidores 🚚 transportan los pedidos hasta el domicilio de los respectivos clientes.
