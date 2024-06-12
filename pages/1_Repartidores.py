@@ -6,7 +6,7 @@ import altair as alt
 st.set_page_config(page_title="Repartidores", page_icon="🔥", layout="wide")
 
 # Encabezado
-st.header("Control de desempeño en Armadores")
+st.header("Control de desempeño en Repartidores")
 
 # Línea divisoria
 st.markdown("---")
@@ -21,8 +21,6 @@ df['fecha'] = pd.to_datetime(df['fecha'])
 df['año'] = df['fecha'].dt.year
 df['mes'] = df['fecha'].dt.month
 
-# Configuración de la interfaz de usuario
-st.title("Dashboard de Empleados")
 
 # Filtros
 nombre = st.selectbox("Seleccionar Nombre", df['nombre'].unique())
